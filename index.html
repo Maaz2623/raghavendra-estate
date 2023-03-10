@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-png">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="/assets/index-a62909fe.css">
+  </head>
+  <body>
+      <!-- Sticky Links  -->
+      <div class="fixed right-0 bottom-1 z-50 px-5 py-3 flex flex-col space-y-3">
+        <!-- WhatsApp -->
+        <a href="tel:8217532721" target="_blank" title="Call" class="shadow-2xl bg-red-500 rounded-full p-2">
+          
+            <img class="fill-green-600 animate-pulse" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYklEQVR4nO2cSWgUQRRAf9zXg4LiliiIKHgR9eB20KgXQcVAboJ40ZsHvTuHZPJ/ZxxxyPxqG5cc9KBBL24IggQVRbx4EBVEwYBb4pKDgriNdI+DipnqydSEqrH/gzqm+P3mV9fyqwMgCIIgCIIgCIIgJIJ8agqwtwEUtlbcmFpAeYtth24fP70WmF6DokJVjekcBKlJkEiy2YnA9LxqeaokEbsgkeRpnbE8FbV+SCTR+6wmAguQSESgISLQEBFoiAg0RAQaksftMguboHCTCDQh37lMBJqgcJoINEXhK9mJmKDwvAg0QeEBEWjC0Y7VNRB4ExJLT2ocMA0ayLsGmcxkSDRMJ6qUdwm6UxNsh2+fqB4ybHlnIAjG2g7dDVKpUaCobxjyTkEqNcZ22G6hsL3i+keh0GA7XPdQmZnA9ClGINkO020UHdFk3oDt8NzHb58LCj9rMnCV7RDdRyFrsvCq7fDc51h2ejRcy0qk3bZDdB+f9moEDkJATbZDdH9dyHhXu33r6RltO0y3OeqtBEVfy0vErO0Q3YfxoH5diHtsh1gHWzy8rpmVv4CP622H6Tbc1giM7zSZ+BbytNR2mG7j4w5g/KGZmV9C0LnQdph1/j6kPshn5tsO010KhQZgPB1zUvM4OpQQNMf/CntjJeZoXrkuhFx6BjA9ilnePJN3oo4ubw4oehIj8YXR7BwWqphu/dHfR1D0/q/G+AYUPf23YS8w7Xd7t8RtjVGm6YfzADCtGXbfYaEq3C5WckKub93gND4uiP9MIjpf3FVxn2GhStGFGsgrNt9bBE7DUSY+iH8Y9KKdjY5wyIXVvlrJK65RW6Aubnkx3oh/GLwCQfvsssskhSdrKq/4w7VCXZDLjQfGsxU80IchDyGYDtVeXj0JLA1BprR22/c7Gy+CwhXR3zHhyMirN4EllLetmGmVvKM05YPECgwJ98WM90ZWzv8ssPQ1qKLDoOi7CDS9gxgdNEgGVk/4UXbx5oOmziJDOJ4gvSS6VygCDfE7toDCh5KB5vXnrcB4R4awKQqbgekyMH6r8TKmGRJFvnMWKNoHTLcr2tHELdKPe1MhsQTUBIw7oxtjTPeHmZ394NNm24/gXk0mvMPY5S3/NQkN/U+B8t7GZGeeIAiCIAiCIAgCJImfcKjCrYq1LMkAAAAASUVORK5CYII=" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+            
+            <!-- </img> -->
+        </a>
+        <a href="https://wa.me/+918217532721" target="_blank" title="Message on WhatsApp" class="shadow-2xl bg-red-500 rounded-full p-2" >
+          <img class="fill-green-600 animate-bounce" src="data:image/png;base64,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" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+          <!-- </img> -->
+      </a>   
+      </div>
+      <!-- Header  -->
+        <header class="text-gray-600 body-font bg-white sticky top-0 shadow-lg z-50">
+          <div
+            class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+          >
+            <a
+            
+              class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 hover:cursor-pointer"
+            ><img src="/assets/Logo-fd8af67a.png" class="w-auto h-6" alt="">
+            </a>
+            <nav
+              class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+            >
+              <a class="mr-5 hover:text-gray-900" href="#home">Home</a>
+              <a class="mr-5 hover:text-gray-900" href="#gallery">Gallery</a>
+              <a class="mr-5 hover:text-gray-900" href="#features">Features</a>
+              <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+            </nav>
+          </div>
+        </header>
+
+      <!-- Hero  -->
+        <section class="text-gray-600 body-font" id="home">
+          <div
+            class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+          >
+            <div
+              class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+            >
+              <h1
+                class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+              >
+                Buy/Sell the best property anywhere,
+                <br class="hidden lg:inline-block" />according to your needs
+              </h1>
+              <p class="mb-8 leading-relaxed">
+                We provide the best choices of homes to our customers so they can choose according to their needs
+                and always appreciate themselves for making the right choices.
+              </p>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img
+                class="object-cover object-center rounded h"
+                alt="hero"
+                src="/assets/hero-0d9ea806.jpg"
+              />
+            </div>
+          </div>
+        </section>
+
+      <!-- Gallery  -->
+      <hr
+        class="w-80 h-1 mx-auto bg-red-400 border-0 rounded dark:bg-red-400"
+      />
+
+      <div class="flex items-center justify-center">
+        <h1
+          class="title-font sm:text-4xl text-3xl mb-4 mt-4 font-medium text-gray-900"
+        >
+          Gallery
+        </h1>
+      </div>
+      <section class="text-gray-600 body-font" id="gallery">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap md:-m-2 -m-1">
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="/assets/g1-340b0cf9.jpg">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/g2-ca3694b0.jpg">
+              </div>
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full object-cover object-center block" src="/assets/g3-524b5060.jpg">
+              </div>
+            </div>
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="/assets/g4-b233dd4b.jpg">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/g5-5995ba90.jpg">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="/assets/g6-e92aaa40.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features  -->
+      
+      <section class="text-gray-600 body-font py-10" id="features">
+        <hr
+        class="w-80 h-1 mx-auto  bg-red-400 border-0 rounded  dark:bg-red-400"
+      >
+
+      <div class="flex items-center justify-center">
+        <h1
+          class="title-font sm:text-4xl text-3xl mb-4 mt-4 font-medium text-gray-900"
+        >
+          Features
+        </h1>
+      </div>
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+              <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-100 text-red-500 mb-5 flex-shrink-0">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClklEQVR4nO2Yv4sUMRTHR1FRECwEFc/OQhvtLBTOEy0E5W7zfTGFNgsW12qhWFjc/QGWgmAvNvaKyCEKlieC4C8EsdBCREGWm2Q4Ihmze3esszszSWZndL4wxUKS7/vMe5m8TRS1arAksKSIdBWPJHoeDKQqCGWf4CDBDKxakLxqM1JQqt0jOdWW1r9QWqqiOYX0X4LEjJEC7q1rOe4ozqd9+5RSHgPN2G4JPBnRQ93WUbTJ1cdJ4wxMgAMI4I0ExApjB2Wnc0QRXZFEP1IYzi+7+DhrnIHi/EQaKLDSE2LqL/NPSmBVAl/1/PzWsj7hQYBrtnweZo2RRE/NmITobFkfZ40zkMCiBXkc0ic8CNElW1pKMXY8lE/4zS7ETkX02WYlVkR3zb7RMzNbfPo4K49BTHRYEr3Y8MkFfirggeS8q4XY5sPHSUUMEs7PmDNDAR82nCXAp5ixji+fUipr0AMOKOCqAt7bDK0mnJ/y7ZPK3FqEvhTQ3e72/ud31JdN5b1pAZ4NTwaWS09eC+C6Am5oIXZkjUmA8xbkm/NLBZaH35YQ+0xb0W8vzO8so0wQ4KOdfyxzDOfTFuRL0fV13hhdYdIO98/bup8JQnRz3OnvJTYXmFiIQ6bPsiV4Swuxa7DuwsLmGLgggV+2RTmXd11dNiYXGMn5xfRk7x+KwGtF9DI9S9b22WJwCE8wR015SeD7uv8hPQk8SoDTedfRHvatl4VMOfVBRrXtIbyHpIE9tjxMQO96c3P7owIqc/bo2dm9A0/gbVHPYDC1gKgSRoeGqAKmMoiQMJVDhICZGIRPmIlD+ICpDYQLTO0gysDUFqIITO0h8sA0BmIUTOMgsjpXr13shDPTrExkZOaVeRqXiVaRm34DvJTWRH/GKncAAAAASUVORK5CYII=" alt="">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Low Cost</h2>
+                  <p class="leading-relaxed text-base">Find any home according to your budget. Get in touch with Mr. Raghavendra for finding the best homes which fit your needs and is easy on your pocket.</p>
+                  
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3 flex flex-col text-center items-center ">
+                <div class="w-20 h-20 inline-flex items-center overflow-hidden justify-center rounded-full bg-red-100 text-red-500 mb-5 flex-shrink-0">
+                  <img src="data:image/png;base64,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" alt="" srcset="">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Trust</h2>
+                  <p class="leading-relaxed text-base">The advisors at our firm are always available to help future house owners with plot charges. In addition, they will also explain home financing and the advantages and disadvantages of various plans, along with the costs and registration fees.
+                  </p>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="w-20 h-20 inline-flex items-center justify-center overflow-hidden rounded-full bg-gray-100 text-red-500 mb-5 flex-shrink-0">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVR4nO2bQU7DMBBFh9twFJb1nIKb9R5UXASEuEI9LIKM0ioKlDoZO56J/5O8SKtJfl4dO7USIgAAAAAAAABwzZn5UZiHPbV0TptKFOaP1iddqsUQPgeih60FHn8CHA7P5JSUfZR47Ovge+gE59k4GJlPl+9iCK/Wt5uOf4k0ZqSxYzKOvFwDMp+sbzcd/6ZcgpAzzOQWK0G85hYrQbzmFitBvOaWG0Fyb2Jb1PyXe3MEAusKpAV1W9Xk1G2GQCAENkXQA+sKFMzCEFgVsTKbec0tVoJ4zS1WgnjNLVaCeM0tmIUhsCmCG2kIbIqgB/pGvC9ntcbMivRXCE/C/J4bSNq1t5TVnMAUzICcIVdigfMtLtDFmCCFckKgkuqXsJWHgOK4bf4SHieRq0QrDwHFcdv8JFJ9x0ruiYDAO6ztSeiBIxCoBAJ7FygL/y3Uql+739z9qYFAJdpfTBbUz+/7Shw/l2Y9kIzX5wKBvQqMmS/ArD3+/gWGvBdgdjsLk7F6CCwkcP65tm41aw4Y/1i3y6mfj4H9CuTf63a36ktfcrsQOAUCKwnU0v0kogUClXR/I60FApVAYG8CrTYqnBMC2ZhAAAAAAAAAAKBSfAPpMMMhtiVlLQAAAABJRU5ErkJggg==" alt="">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Integrated with</h2>
+                  <p class="leading-relaxed text-base">Find homes in Bangalore according to your need, You just have to imagine. We are integrated with Brigade, Shobha Apartments and many more.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+      <!-- Testimonials  -->
+      
+      <section class="text-gray-600 body-font">
+        <hr
+        class="w-80 h-1 mx-auto bg-red-400 border-0 rounded  dark:bg-red-400"
+      />
+
+      <div class="flex items-center justify-center">
+        <h1
+          class="title-font sm:text-4xl text-3xl mb-4 mt-4 font-medium text-gray-900"
+        >
+          Reviews
+        </h1>
+      </div>
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 md:w-1/2 w-full">
+                <div class="h-full bg-gray-100 p-8 rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                  </svg>
+                  <p class="leading-relaxed mb-6">Elegant homes for best prices, really appreciate my decision of contacting Mr. Raghavendra. I finally found a home according to my need.</p>
+                  <a class="inline-flex items-center">
+                    <img alt="testimonial" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFLElEQVR4nO1aS4wURRhufIBEiAKKxkd8nHxGo4nRExeNq8vO9PdN6qCs4SR6Yln04sXVmxI94TMaDp6MR0RADyrRgCKgrgkiAjEqGkFDYrK7UzVCm7+nemx2e6arempXNPxJX2aq669v/vdXE0Vn5X8qSb1+cROoaWCDJt81wLeaPK6BqfQhjxtyvwE2y5omOZQodVF0JkgyMLBAA6s0sF0Dfxky8XnkHU1u0+TDslc05wBWr77AkOsNebRzKLKpyY8NOdYEoBuNm5M4XiZr0yeOl2nglmYcU9ZoYIcGdAcY8LMB1snaOQHRiuMHDHko98vuNcBjyeDgEt+95B151wD7coC+b5H3z6oVNPBKTuG+FjAQZO8ommd/oK9ybrcxuLslQ0OXGXKPVTBpyJFEqXODKhE9K1acZ4BRSQ7WXXcnwPIgm0/V69eKua0VDuh6/dZe65txfKMhn9LARwY4LMA1OWGAIwZ4y8TxPWU6NXCbAQ5anQflDP1bwoLQwGcSsF3Xrlx5iSE3aeBkz0xFntLAs732yvbT5OcZmMqWsZmp7U7krkSpRV3XAssN+Y1X6iVbBng9GR6+sOu+Si3KwKRuViVmNPlq5k49LTE2do4mP/GtIbmg/jRRan5PS6PtZpp8yQtEi3wwC+zSmCAbVUHkMuCTvXToev32LAE4p+ZEqYUSpFbB2rL1aTvSP5AfyvQYYLQTLy4uZsgnsjpRlmIl/2vyz76BkMkUeb1Dav7arh9xCfCjriZMlLo0BAir715Xl5d2pqdVdKMxbDfeU7apBXJ5KCBNMi7VF0XzsnZGNxoPdQdCfpAuiuNHnYC0024oizgFsYnjx20G21p8qMHBJbatbsps4QSkVlssBS6QRW5w0qnUUumapQ4VzjNi2hQp8GHkIYb8sV8Q0g34tO8a2GHBDxV9+YLd+GkfIGLiABYZ99IJPGN/gA1FB9qSoozjuieQlwMA2eSjswnAZq/NM77M2gDpXl03TNsT4Ne+XYv8RfaKHEWmTwvkwMwvgT/kSwkmZyBKLQ2VtXwmzMTWLw0cKwKSzs+9GrgZG65Zc37WA/UZ7FNeegcGFlhLNoMAse9tD+BaxTWhDAigg7iWiInjO9MJsDqICQ3c4aMzaQ9x8u7v3YPdsTAVZpEKj7zrrU+pm7oHu60Hvuk3R9Qdq2CN33xd+bTiTW6JposGXqxSEDOR4aiCRdZX0kWOdS2IVVuUaRnsCw9r7JYZo4ou3WY0i1uUlNIkWz5N43SZAK5yBTKh1JVVdCRZ0wiYrufUwPs+bXyBkvmuQKpawwjF2vac97ou0uQjVtHeSkBqtcXOQHrQS06DFbCqrNA4j7rTZUqp61yBVGEPW9moS/5Umu1y2edLH35XDiZspEew75okr3HdPxHygRy39WNd+QtilYwOKmMr2pX9LkO+UaW6W074TQPcXaqH6X1Mmw5yrT1iQsvRFhJ0lv1bm78GCPCMC3dVxPFmBJ2cyfsqo0OZkt9llKllyd8+7aYp8KMBY8h35PCdlv0fIn2jFwi7wcIcgbxTLnnKmPbAgE5q8rUs7uQMla/lUt5K7jXm6PCm2wMcliuOqB+ZrNev7lz0/Dsgjkhaj0LIRK12hU9qDeZe5E7xiij4Zaj4bCBCrgTAKWFnZvXuXdLfLMfNoRZwXzQXYovmqNA4AQFIazRSZdDqH5BS8+XvF/YvHMbbhdoc7jZh1mWeic4EEV5KhjMNPG/H5v2aPJHz+xP2s62afE5G6ir/ljgr0X9E/gbyxIX+8AvRdAAAAABJRU5ErkJggg==" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                    <span class="flex-grow flex flex-col pl-4">
+                      <span class="title-font font-medium text-gray-900">B.S Ramshankar</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/2 w-full">
+                <div class="h-full bg-gray-100 p-8 rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                  </svg>
+                  <p class="leading-relaxed mb-6">Thank you Mr. Raghavendra, for getting me the best home according to my need and under budget. Very polite and sincere service.</p>
+                  <a class="inline-flex items-center">
+                    <img alt="testimonial" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFLElEQVR4nO1aS4wURRhufIBEiAKKxkd8nHxGo4nRExeNq8vO9PdN6qCs4SR6Yln04sXVmxI94TMaDp6MR0RADyrRgCKgrgkiAjEqGkFDYrK7UzVCm7+nemx2e6arempXNPxJX2aq669v/vdXE0Vn5X8qSb1+cROoaWCDJt81wLeaPK6BqfQhjxtyvwE2y5omOZQodVF0JkgyMLBAA6s0sF0Dfxky8XnkHU1u0+TDslc05wBWr77AkOsNebRzKLKpyY8NOdYEoBuNm5M4XiZr0yeOl2nglmYcU9ZoYIcGdAcY8LMB1snaOQHRiuMHDHko98vuNcBjyeDgEt+95B151wD7coC+b5H3z6oVNPBKTuG+FjAQZO8ommd/oK9ybrcxuLslQ0OXGXKPVTBpyJFEqXODKhE9K1acZ4BRSQ7WXXcnwPIgm0/V69eKua0VDuh6/dZe65txfKMhn9LARwY4LMA1OWGAIwZ4y8TxPWU6NXCbAQ5anQflDP1bwoLQwGcSsF3Xrlx5iSE3aeBkz0xFntLAs732yvbT5OcZmMqWsZmp7U7krkSpRV3XAssN+Y1X6iVbBng9GR6+sOu+Si3KwKRuViVmNPlq5k49LTE2do4mP/GtIbmg/jRRan5PS6PtZpp8yQtEi3wwC+zSmCAbVUHkMuCTvXToev32LAE4p+ZEqYUSpFbB2rL1aTvSP5AfyvQYYLQTLy4uZsgnsjpRlmIl/2vyz76BkMkUeb1Dav7arh9xCfCjriZMlLo0BAir715Xl5d2pqdVdKMxbDfeU7apBXJ5KCBNMi7VF0XzsnZGNxoPdQdCfpAuiuNHnYC0024oizgFsYnjx20G21p8qMHBJbatbsps4QSkVlssBS6QRW5w0qnUUumapQ4VzjNi2hQp8GHkIYb8sV8Q0g34tO8a2GHBDxV9+YLd+GkfIGLiABYZ99IJPGN/gA1FB9qSoozjuieQlwMA2eSjswnAZq/NM77M2gDpXl03TNsT4Ne+XYv8RfaKHEWmTwvkwMwvgT/kSwkmZyBKLQ2VtXwmzMTWLw0cKwKSzs+9GrgZG65Zc37WA/UZ7FNeegcGFlhLNoMAse9tD+BaxTWhDAigg7iWiInjO9MJsDqICQ3c4aMzaQ9x8u7v3YPdsTAVZpEKj7zrrU+pm7oHu60Hvuk3R9Qdq2CN33xd+bTiTW6JposGXqxSEDOR4aiCRdZX0kWOdS2IVVuUaRnsCw9r7JYZo4ou3WY0i1uUlNIkWz5N43SZAK5yBTKh1JVVdCRZ0wiYrufUwPs+bXyBkvmuQKpawwjF2vac97ou0uQjVtHeSkBqtcXOQHrQS06DFbCqrNA4j7rTZUqp61yBVGEPW9moS/5Umu1y2edLH35XDiZspEew75okr3HdPxHygRy39WNd+QtilYwOKmMr2pX9LkO+UaW6W074TQPcXaqH6X1Mmw5yrT1iQsvRFhJ0lv1bm78GCPCMC3dVxPFmBJ2cyfsqo0OZkt9llKllyd8+7aYp8KMBY8h35PCdlv0fIn2jFwi7wcIcgbxTLnnKmPbAgE5q8rUs7uQMla/lUt5K7jXm6PCm2wMcliuOqB+ZrNev7lz0/Dsgjkhaj0LIRK12hU9qDeZe5E7xiij4Zaj4bCBCrgTAKWFnZvXuXdLfLMfNoRZwXzQXYovmqNA4AQFIazRSZdDqH5BS8+XvF/YvHMbbhdoc7jZh1mWeic4EEV5KhjMNPG/H5v2aPJHz+xP2s62afE5G6ir/ljgr0X9E/gbyxIX+8AvRdAAAAABJRU5ErkJggg==" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                    <span class="flex-grow flex flex-col pl-4">
+                      <span class="title-font font-medium text-gray-900">M. Siddesh</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- Contact  -->
+      
+      <section class="text-gray-600 body-font relative" id="contact">
+        <section class="text-gray-600 body-font">
+          <hr
+          class="w-80 h-1 mx-auto bg-red-400 border-0 rounded  dark:bg-red-400"
+        />
+    
+        <div class="flex items-center justify-center">
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 mt-4 font-medium text-gray-900"
+          >
+            Contact Us
+          </h1>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.6045824164653!2d77.59441702916222!3d12.906901306652198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae150deaaaaaab%3A0x7d0e4b5dbc909112!2sPinto%20Das%20Towers!5e1!3m2!1sen!2sin!4v1678126841849!5m2!1sen!2sin" style="filter: grayscale(0) contrast(1.2) opacity(0.8);"></iframe>
+            <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+              <div class="lg:w-1/2 px-6">
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                <p class="mt-1">#679, 8th Main Road, J.P Nagar, 2nd Phase, Bangalore - 560078</p>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                <a class="text-red-500 leading-relaxed">raghavendra.estate2023@gmail.com</a>
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                <p class="leading-relaxed">+91 9449526769</p>
+                <p class="leading-relaxed">+91 8217532721</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+            <p class="leading-relaxed mb-5 text-gray-600">Feel free to comment or query about our services.</p>
+            <div class="relative mb-4">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=raghavendra.estate2023@gmail.com" target="_blank">
+              <button class="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Send</button>
+            </a>
+            
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Footer  -->
+      <footer class="text-white body-font bg-slate-900">
+          <div class="container px-5 py-8 mx-auto flex items-center justify-center sm:flex-row flex-col">
+            <a
+            
+              class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 hover:cursor-pointer"
+            ><img src="/assets/Logo-fd8af67a.png" class="w-auto h-6" alt="">
+            </a>
+            <p class="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Raghavendra Estates
+          </div>
+        </footer>
+    </body>
+</html>
+
